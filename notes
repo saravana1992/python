@@ -1,0 +1,173 @@
+Input function:
+
+
+
+Input always string considered,
+
+Ex 1:
+ brith = input(‘birth_yr’)
+
+Age = 2019 - int(birth)
+
+Ex 2:
+
+Kg = input(‘provide kg’)
+Wgingms = 1000 * int(kg) 
+
+
+#########################
+
+Using quotes
+
+Print(“ I’m jolly ”) - use single inside double quote
+
+
+Multiple lines then use ‘’’ ‘’’
+
+
+Course = ‘python’
+
+Print(course[-1])
+
+
+##########################
+
+Formatted string
+
+Print(f’ msg )
+
+
+###########################
+
+Functions
+
+course = "python is mass"
+print(len(course))
+print(course.upper())
+print(course.lower())
+print(course.find('p'))
+
+print(course.replace('mass','waste'))
+
+##############################
+
+Argumental incremental operator
+
+x = 3
+x += 3
+x -= 3
+
+Operator precedence
+
+x = (10 + 3) * 2 ** 2
+
+experimental
+muliple
+add or sub
+
+############################
+
+import math
+
+x = 2.9
+print(round(x))
+
+############################
+
+if elif else
+
+is_hot = False
+is_cold = True
+
+if is_hot:
+    print("hot day")
+
+elif is_cold:
+    print("cold day")
+
+else:
+    print("lovely day")
+
+print("good day")
+
+
+############################
+
+Logical operator
+
+has_high_income = True
+has_good_credit = True
+
+if has_high_income && has_good_credit:
+    print("eligible for loan")
+
+====
+
+has_high_income = True
+has_good_credit = False
+
+if has_high_income OR has_good_credit:
+    print("eligible for loan")
+
+====
+
+has_high_income = True
+has_criminal_record = False
+
+if has_high_income and not has_criminal_record:
+    print("eligible for loan")
+
+#####################################
+
+Comparison operator
+
+> - greater
+>= - greater equal
+< - less than
+<= - less than equal
+== - equal to
+!= - equal to
+
+Test example:
+
+name = input("enter name")
+
+if len(name) <= 3:
+    print("name should be at least 3 characters")
+elif len(name) >= 50:
+    print("name should be max of 50 characters")
+else:
+    print("name looks to be good")
+
+#######################################
+
+
+list = (a, b, c)
+
+if a in list:
+    print("please do something")
+else:
+    print("please dont do anything")
+
+#######################################
+
+While loops
+
+i = 1
+
+while i <= 5:
+    print(i)
+    i = i+1
+
+
+
+
+
+
+
+
+
+
+
+
+
