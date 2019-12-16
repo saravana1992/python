@@ -188,11 +188,60 @@ for item in st:
 
 ######################################
 
+two dimensional arrays
+
+matrix = [
+    [1, 2, 3],
+    [2, 3, 4],
+    [3, 4, 5]
+    ]
+for row in matrix:
+    for item in row:
+        print(item)
 
 
+#########################################
+
+List Methods
+
+1. Append
+
+numbers = [2, 5, 1, 3, 2]
+numbers.append(20)
+print(numbers)
+
+2. Insert
+
+syntax
+insert(index, object)
+
+numbers = [2, 5, 1, 3, 2]
+numbers.insert(0, 20)
+print(numbers)
+
+3. pop
+
+numbers.pop()
+
+last letter will be remoced
+
+4. index
+
+numbers.index(0)
 
 
+5. in number
 
+print(50 in numbers)
+
+6. COUNT
+
+print(
+
+7. sort
+
+st.sort()
+print(st)
 
 
 
