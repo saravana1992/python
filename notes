@@ -159,9 +159,34 @@ while i <= 5:
     print(i)
     i = i+1
 
+######################################
+
+Letting the user choose when to quit
+msg = ''
+while msg != 'quit':
+ msg = input()
 
 
+####################################
 
+nested loop
+
+Giving x and y coordinates
+
+for x in range(5): # iteration
+    for y in range(6):
+        print(f'({x},{y})')
+
+######################################
+
+Drawing f pattern using for loop
+
+st = [5, 2, 4, 2, 2]
+
+for item in st:
+    print("*" * item )
+
+######################################
 
 
 
